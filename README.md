@@ -16,7 +16,7 @@ Los datos y cambios viven solo en memoria: al cerrar la app se restablecen. No h
 
 ## Preparar el entorno
 
-Requiere Node.js LTS y npm. Instala dependencias y comprueba versiones compatibles con la versión estable de Expo disponible:
+Instala Node.js LTS (incluye npm) y crea/ajusta los paquetes compatibles con la versión Expo estable disponible:
 
 ```sh
 npm install
@@ -24,6 +24,9 @@ npx expo install --fix
 npx expo start
 ```
 
-## Estado de GitHub
+La documentación de Expo recomienda crear proyectos con `create-expo-app`. Esta carpeta ya contiene la estructura inicial; en el entorno donde se preparó el prototipo está disponible Node.js, pero no npm/npx, por lo que todavía no se instalaron dependencias ni se ejecutó la app.
 
-Cuenta: `Pragmox-89`. Este repositorio público estaba vacío al comenzar el prototipo. La cuenta conectada permite consultar el repositorio; la creación y publicación de archivos se hará después de preparar el proyecto local.
+## GitHub
+
+Repositorio público: [Pragmox-89/Zaja-studio](https://github.com/Pragmox-89/Zaja-studio). Se verificó que estaba vacío antes de publicar el primer prototipo. Los cambios locales y remotos todavía no están sincronizados automáticamente.
+
