@@ -26,6 +26,10 @@ npx expo start
 
 Mantén el servidor abierto y escanea el QR con Expo Go (Android) o con la cámara (iPhone). El teléfono y la computadora deben estar en la misma red Wi-Fi. Para revisar el proyecto, ejecuta `npx expo-doctor`.
 
+## Generar APK de prueba para Android
+
+Con una cuenta de Expo autorizada, ejecuta `npx eas-cli@latest build --platform android --profile preview`. EAS Build genera un APK de distribución interna y entrega un enlace de descarga.
+
 ## GitHub
 
 Repositorio público: [Pragmox-89/Zaja-studio](https://github.com/Pragmox-89/Zaja-studio).
