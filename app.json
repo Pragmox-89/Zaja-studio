@@ -19,7 +19,12 @@
     },
     "android": {
       "package": "studio.zaja.admin"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3af0e931-c460-4929-bd48-ef7100eed8f2"
+      }
+    },
+    "owner": "rastreattore"
   }
 }
-
